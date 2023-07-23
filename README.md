@@ -57,7 +57,7 @@ Outros exemplos: chain of responsability; iterator; template method.
 Os padrões estruturais estão relacionados à composição de classes e objetos. Discute o uso de objetos e classes para montar estruturais maiores, sem perder a flexibilidade e eficiência.
 
 <h3 align="center">Exemplos</h3>
-<pre width="100%">
+<ul>
 > Padrão: Adapter
 
 - Problema: dois objetos são incompatíveis, mas precisam interagir. Além disso, a modificação dos objetos não é interessante/possível.
@@ -65,7 +65,7 @@ Os padrões estruturais estão relacionados à composição de classes e objetos
 - Solução: um adaptador é construído ao redor do objeto, para tornar a interação com o outro objeto possível.
 - Pros: é possível adicionar novos adaptadores sem impactar o código existente.
 - Cons: complexidade aumenta com a adição de novas interfaces e classes.
-        </pre>
+        </ul>
 
 
 Outros exemplos: adapter; bridge; composite; decorator; facade; flyweight; proxy.
@@ -77,7 +77,7 @@ Outros exemplos: adapter; bridge; composite; decorator; facade; flyweight; proxy
 Está relacionado ao modelo de criação de objetos, com o intuito de aumentar a flexibilidade e reutilização do código.
 
 <h3 align="center">Exemplos</h3>
-<pre>
+<ul>
 > Padrão: Factory method
 
 - Problema: null.
@@ -85,7 +85,7 @@ Está relacionado ao modelo de criação de objetos, com o intuito de aumentar a
 - Solução: unull.
 - Pros: null.
 - Cons: null.
-</pre>
+</ul>
 
 Outros exemplos: abstract factory; builder;  factory method; prototype; singleton.
 
