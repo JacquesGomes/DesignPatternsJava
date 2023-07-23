@@ -1,5 +1,5 @@
 # Padroes_Projetos_Java
-Explorando padrões de projetos em Java
+Explorando padrões de projetos em Java.
 
 Repositório destinado praticar padrões de projetos em Java, utilizando tanto Java Puro como Spring.
 <br>
@@ -12,6 +12,7 @@ Repositório destinado praticar padrões de projetos em Java, utilizando tanto J
 -> Solução: descrição abstrata de como um modo de organizar as classes e objetos resolverá o problema. A natureza abstrata da solução permite que o padrão seja adaptável e possa ser aplicado em diversas situações, servindo como um template.
 
 -> Consequências: pros e contras em aplicar o padrão. Nesse ponto, é importante levantar explicitamente as implicações de adotar um padrão, tanto na parte de complexidade de espaço e tempo, com em aspectos da linguagem, implementação, o impacto na flexibilidade, escalabilidade, portabilidade, etc.
+
 <br>
 --- 
 
@@ -51,6 +52,7 @@ Os padrões comportamentais estão relacionados ao modelo de interação e de di
 </ul>
 
 Outros exemplos: chain of responsability; iterator; template method.
+
 <br>
 ---
 
@@ -87,6 +89,7 @@ Está relacionado ao modelo de criação de objetos, com o intuito de aumentar a
 - Solução: unull.
 - Pros: null.
 - Cons: null.
+
 </ul>
 
 Outros exemplos: abstract factory; builder;  factory method; prototype; singleton.
