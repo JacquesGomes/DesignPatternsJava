@@ -1,10 +1,3 @@
-<style>
-    pre {
-        white-space: pre-line;
-    }
-    
-</style>
-
 # Padroes_Projetos_Java
 Explorando padrões de projetos em Java
 
@@ -36,7 +29,7 @@ Repositório destinado praticar padrões de projetos em Java, utilizando tanto J
 Os padrões comportamentais estão relacionados ao modelo de interação e de divisão de responsabilidade entre objetos e classes.
 
 <h3 align="center">Exemplos</h3>
-<pre>
+<pre white-space="pre-line">
 > Observer
 
 - Problema: existe uma dependeẽncia entre objetos, onde a alteração de um objeto precisa ser refletida em outro objetos automaticamente.
