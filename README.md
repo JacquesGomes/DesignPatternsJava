@@ -32,7 +32,7 @@ Os padrões comportamentais estão relacionados ao modelo de interação e de di
 <ul>
 > Observer
 
-- Problema: existe uma dependeẽncia entre objetos, onde a alteração de um objeto precisa ser refletida em outro objetos automaticamente.
+- Problema: existe uma dependência entre objetos, onde a alteração de um objeto precisa ser refletida em outro objetos automaticamente.
 - Solução: uso de sujeitos e observadores, onde o sujeito pode refletir suas mudanças nos objetos que estiverem registrados como observadores, ou seja, na pŕatica o sujeito poderá manter uma lista de observadores e um método para notificar ou alterar todos os observadores de acordo com uma mudança.
 - Pros: É possível introduzir novos observadores sem haver mudança no código do sujeito observado, e vice-versa; é possível estabelecer relações entre objetos durante a execução.
 - Cons: os observadores são notificados em uma ordem aleatória.
