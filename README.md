@@ -57,7 +57,7 @@ Outros exemplos: chain of responsability; iterator; template method.
 Os padrões estruturais estão relacionados à composição de classes e objetos. Discute o uso de objetos e classes para montar estruturais maiores, sem perder a flexibilidade e eficiência.
 
 <h3 align="center">Exemplos</h3>
-<pre>
+<pre width="100%">
 > Padrão: Adapter
 
 - Problema: dois objetos são incompatíveis, mas precisam interagir. Além disso, a modificação dos objetos não é interessante/possível.
