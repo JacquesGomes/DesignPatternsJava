@@ -28,9 +28,9 @@ Repositório destinado praticar padrões de projetos em Java, utilizando tanto J
 
 Os padrões comportamentais estão relacionados ao modelo de interação e de divisão de responsabilidade entre objetos e classes.
 
-<div width=500px>
+<div width="500px">
 <h3 align="center">Exemplos</h3>
-<pre white-space="pre-line">
+<pre white-space="pre-wrap">
 > Observer
 
 - Problema: existe uma dependeẽncia entre objetos, onde a alteração de um objeto precisa ser refletida em outro objetos automaticamente.
