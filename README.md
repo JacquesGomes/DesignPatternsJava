@@ -2,7 +2,9 @@
 Explorando padrões de projetos em Java.
 
 Repositório destinado praticar padrões de projetos em Java, utilizando tanto Java Puro como Spring.
+
 <br>
+
 ---
 
 ### Elementos essenciais de um design pattern
@@ -14,6 +16,7 @@ Repositório destinado praticar padrões de projetos em Java, utilizando tanto J
 -> Consequências: pros e contras em aplicar o padrão. Nesse ponto, é importante levantar explicitamente as implicações de adotar um padrão, tanto na parte de complexidade de espaço e tempo, com em aspectos da linguagem, implementação, o impacto na flexibilidade, escalabilidade, portabilidade, etc.
 
 <br>
+
 --- 
 
 ### Riscos no uso de padrões
@@ -25,6 +28,7 @@ Repositório destinado praticar padrões de projetos em Java, utilizando tanto J
 -> Uso injustificado: tendências de buscar utilizar padrões em qualquer oportunidade, até em situações em que um código simples e objetivo seria suficiente.
 
 <br>
+
 ---
 
 ### Padrão comportamental
@@ -54,6 +58,7 @@ Os padrões comportamentais estão relacionados ao modelo de interação e de di
 Outros exemplos: chain of responsability; iterator; template method.
 
 <br>
+
 ---
 
 ### Padrão estrutural
@@ -73,6 +78,8 @@ Os padrões estruturais estão relacionados à composição de classes e objetos
 
 
 Outros exemplos: adapter; bridge; composite; decorator; facade; flyweight; proxy.
+
+<br>
 
 ---
 
