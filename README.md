@@ -28,6 +28,7 @@ Repositório destinado praticar padrões de projetos em Java, utilizando tanto J
 
 Os padrões comportamentais estão relacionados ao modelo de interação e de divisão de responsabilidade entre objetos e classes.
 
+<div>
 <h3 align="center">Exemplos</h3>
 <pre white-space="pre-line">
 > Observer
@@ -47,7 +48,7 @@ Os padrões comportamentais estão relacionados ao modelo de interação e de di
 - Pros: é possível trocar algoritmos durante a execução; é possível introduzir novas soluções em modificar a classe original.
 - Cons: linguagens modernas possuem mecanismos para implementar as soluções dentro de funções, sem haver a necessidade de criar classes, objetos, interfaces, etc.; o cliente deve ser capaz de fazer a escolha de forma correta.
 </pre>
-
+<div>
 Outros exemplos: chain of responsability; iterator; template method.
 
 ---
