@@ -30,24 +30,24 @@ Os padrões comportamentais estão relacionados ao modelo de interação e de di
 
 <div width="500px">
 <h3 align="center">Exemplos</h3>
-<pre white-space="pre-wrap">
+<ul>
 > Observer
 
 - Problema: existe uma dependeẽncia entre objetos, onde a alteração de um objeto precisa ser refletida em outro objetos automaticamente.
 - Solução: uso de sujeitos e observadores, onde o sujeito pode refletir suas mudanças nos objetos que estiverem registrados como observadores, ou seja, na pŕatica o sujeito poderá manter uma lista de observadores e um método para notificar ou alterar todos os observadores de acordo com uma mudança.
 - Pros: É possível introduzir novos observadores sem haver mudança no código do sujeito observado, e vice-versa; é possível estabelecer relações entre objetos durante a execução.
 - Cons: os observadores são notificados em uma ordem aleatória.
-</pre>
+</ul>
 
 <h3></h3>
-<pre>
+<ul>
 > Strategy
 
 - Problema: uma mesma tarefa pode ter diferentes modos de ser resolvida.
 - Solução: uma classe que possui diversas formas de resolver algo específico, deverá quebrar essas soluções em classes chamadas 'strategies'. A classe original fará referência às estratégias, e o cliente que informará qual a solução apropriada.
 - Pros: é possível trocar algoritmos durante a execução; é possível introduzir novas soluções em modificar a classe original.
 - Cons: linguagens modernas possuem mecanismos para implementar as soluções dentro de funções, sem haver a necessidade de criar classes, objetos, interfaces, etc.; o cliente deve ser capaz de fazer a escolha de forma correta.
-</pre>
+</ul>
 <div>
 Outros exemplos: chain of responsability; iterator; template method.
 
