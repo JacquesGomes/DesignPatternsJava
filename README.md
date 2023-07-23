@@ -1,3 +1,10 @@
+<style>
+    pre {
+        white-space: pre-wrap;
+    }
+    
+</style>
+
 # Padroes_Projetos_Java
 Explorando padrões de projetos em Java
 
