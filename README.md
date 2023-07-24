@@ -63,7 +63,6 @@ Os padrões estruturais estão relacionados à composição de classes e objetos
 
 - Problema: dois objetos são incompatíveis, mas precisam interagir. Além disso, a modificação dos objetos não é interessante/possível.
 - Solução: um adaptador é construído ao redor de um objeto ou classe, para tornar a interação com o outro objeto ou classe possível.
-- Solução: um adaptador é construído ao redor do objeto, para tornar a interação com o outro objeto possível.
 - Pros: é possível adicionar novos adaptadores sem impactar o código existente.
 - Cons: complexidade aumenta com a adição de novas interfaces e classes.
         </ul>
@@ -81,11 +80,10 @@ Está relacionado ao modelo de criação de objetos, com o intuito de aumentar a
 <ul>
 > Padrão: Factory method
 
-- Problema: null.
-- Solução: null.
-- Solução: unull.
-- Pros: null.
-- Cons: null.
+- Problema: cenários onde você possui uma classe com vários métodos, incluindo um método para instanciar um objeto 'botão', surgem situações em que diferentes tipos de botões precisam ser instanciados.
+- Solução: O Factory Method resolve esse problema introduzindo um método abstrato para a criação do objeto, permitindo várias formas de instanciação dos objetos.  Além disso, uma interface é estabelecida para padronizar a estrutura dos botões. Dessa forma, cada tipo de botão possui sua própria classe concreta, como 'ConcreteBotãoA' que implementa a interface botão e dispõe sobre suas características específicas, e sua respectiva classe 'ConcreteCreateBotãoA' que será a responsável pela criação do botãoA.
+- Pros: flexibilidade na criação de objetos; facilidade na expansão do código, com a adição de novos objetos sem modificar a classe criadora; evita a duplicação de código.
+- Cons: complexidade, o uso do padrão trará a criação de várias classes adicionais para implementar as fábricas.
 
 </ul>
 
