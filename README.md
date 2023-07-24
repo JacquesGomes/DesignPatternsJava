@@ -1,4 +1,4 @@
-# Padroes_Projetos_Java
+# Padroes de projetos em Java
 Explorando padrões de projetos em Java.
 
 Repositório destinado praticar padrões de projetos em Java, utilizando tanto Java Puro como Spring.
@@ -25,7 +25,7 @@ Repositório destinado praticar padrões de projetos em Java, utilizando tanto J
 
 ---
 
-### Padrão comportamental
+### Padrões comportamentais
 
 Os padrões comportamentais estão relacionados ao modelo de interação e de divisão de responsabilidade entre objetos e classes.
 
@@ -53,7 +53,7 @@ Outros exemplos: chain of responsability; iterator; template method.
 
 ---
 
-### Padrão estrutural
+### Padrões estruturais
 
 Os padrões estruturais estão relacionados à composição de classes e objetos. Discute o uso de objetos e classes para montar estruturais maiores, sem perder a flexibilidade e eficiência.
 
@@ -72,7 +72,7 @@ Outros exemplos: adapter; bridge; composite; decorator; facade; flyweight; proxy
 
 ---
 
-### Padrão criacional
+### Padrões criacionais
 
 Está relacionado ao modelo de criação de objetos, com o intuito de aumentar a flexibilidade e reutilização do código.
 
@@ -87,5 +87,5 @@ Está relacionado ao modelo de criação de objetos, com o intuito de aumentar a
 
 </ul>
 
-Outros exemplos: abstract factory; builder;  factory method; prototype; singleton.
+Outros exemplos: abstract factory; builder; prototype; singleton.
 
