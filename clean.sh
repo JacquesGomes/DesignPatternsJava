@@ -8,6 +8,7 @@ PATTERNS=(
     './*/gradle/*'
     './*/gradlew'
     './*/gradlew.*'
+    '.idea/'
 )
 
 # Loop through each pattern and remove matching files from cache
