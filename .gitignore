@@ -23,7 +23,7 @@
 hs_err_pid*
 replay_pid*
 
-./*/.idea
-./*/gradle/
-./*/gradlew
-./*/gradlew.*
+/*/.idea
+/*/gradle/
+/*/gradlew
+/*/gradlew.*
