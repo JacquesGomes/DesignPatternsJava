@@ -1,0 +1,7 @@
+Singleton: @Bean e @Autowired = inversão de controle e injeção de dependência no spring;
+Beans = instâncias de classe Java. Toda vez que esse Bean é injetado,
+ele segue o padrão Singleton (Autowired);
+
+Strategy = @Service e @Repository:
+
+Facade: API REST para abstrair a integração entre Spring Data JPA e ViaCEP (Feign).

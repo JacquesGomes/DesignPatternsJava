@@ -1,3 +1,8 @@
 Singleton = padrão criacional; mantém um método estático de se auto instanciar;
 impossível de recriar a instância; faz sentido em um pool de banco de dados;
 possibilita uma forma de reutilizar a instância;
+
+
+Strategy = simplificar o uso de algoritmos sob a mesma interface;
+
+Facade = interface para simplificar integrações e operações complexas;
